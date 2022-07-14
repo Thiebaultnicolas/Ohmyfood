@@ -1,0 +1,270 @@
+/* header */
+.header {
+  display: flex;
+  padding-bottom: 10px;
+  z-index: -1;
+}
+
+.header i {
+  color: grey;
+  padding-top: 11px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+/* header */
+.img_Ohmyfood {
+  width: 40%;
+  margin-left: 25%;
+  padding-top: 5px;
+}
+/* couverture */
+.couverture {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0px 0px 0px 0px;
+  position: absolute;
+  z-index: -1;
+  
+  
+}
+
+
+.menu h1 {
+  padding-left: 5%;
+}
+
+.h4 {
+  padding-left: 5%;
+}
+.menu h4 {
+  border-bottom: #99e2d0 solid 3px;
+  max-width: 13%;
+}
+
+.iconecoeur1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
+  margin-top: -50px;
+  padding-right: 30px;
+}
+.fa-regular {
+  display: flex;
+  justify-content: flex-end;
+}
+/* couverture */
+
+/* section*/
+.menu {
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50px 50px 0px 0px;
+  margin-top: 240px;
+
+ 
+  
+}
+.menu_restaurants {
+  background-color: gray;
+  border-radius: 15px 15px 15px 15px;
+  width: 85%;
+  height: 45px;
+  margin-bottom: 35px;
+  margin-left: 28px;
+  position: relative;
+}
+
+.Cards-hebergement {
+  background-color: white;
+  width: 85%;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 28.125px;
+  margin-bottom: 15px;
+  animation: flash 5s linear forwards;
+  
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+    
+  }
+  
+  90% {
+    opacity: 0.5 ;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.Cards-hebergement:nth-child(1) {
+  animation-delay: 0.1s;
+ }
+ .Cards-hebergement:nth-child(2) {
+  animation-delay: 0.2s;
+ }
+ .Cards-hebergement:nth-child(3) {
+  animation-delay: 0.3s;
+ }
+ .Cards-hebergement:nth-child(4) {
+  animation-delay: 0.4s;
+ }
+ .Cards-hebergement:nth-child(5) {
+  animation-delay: 0.5s;
+ }
+ .Cards-hebergement:nth-child(6) {
+  animation-delay: 0.6s;
+ }
+
+.Cards-hebergement p {
+  position: absolute;
+  right: 0;
+  padding-right: 45px;
+  margin-top: 5px;
+}
+
+.Cards-hebergement__legende {
+  text-align: start;
+  font-size: 16.5px;
+  color: black;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prix1 {
+  padding-top: 20px;
+  padding-left: 23px;
+}
+
+.prix2 {
+  padding-top: 20px;
+}
+
+.prix3 {
+  padding-top: 20px;
+  padding-left: 25%;
+}
+
+.texte1 {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.Cards-hebergement a {
+  text-decoration: none;
+}
+
+.Cards-hebergement p {
+  font-size: 13px;
+}
+
+.Cards-hebergement h3 {
+  margin: 0;
+  font-size: 14px;
+  display: f;
+  flex-wrap: nowrap;
+}
+
+
+.Cards-hebergement:hover .slide-left {
+  -webkit-animation: slide-left 1.3s cubic-bezier(0.5, 0.46, 0.45, 0.94) both;
+  animation: slide-left 1.3s cubic-bezier(0.5, 0.46, 0.45, 0.94) both;
+  background-color: #99e2d0;
+  height: 50px;
+  width: 15%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.slide-left i {
+  font-size: 20px;
+  color: white;
+  padding-left: 13px;
+  padding-top: 15px;
+}
+.btn {
+  background: linear-gradient(170deg, #ff79da, #9356dc);
+  color: white;
+  font-size: large;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 4px 4px 2px lightgrey;
+  width: 60%;
+  height: 45px;
+  align-self: center;
+  transition: 250ms;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+/* section*/
+
+/* footer*/
+.footer {
+  background-color: #353535;
+  padding-left: 5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer_h5 {
+  color: white;
+  font-size: larger;
+}
+.legends_footer {
+  color: white;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+/* footer*/
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-150px);
+    transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+  }
+}
+
+@-webkit-keyframes Cards-hebergement {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-150px);
+    transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+  }
+}
