@@ -85,23 +85,26 @@
   border-radius: 10px 10px 10px 10px;
   margin-left: 28.125px;
   margin-bottom: 15px;
-  animation: flash 5s linear forwards;
+  box-shadow: .25rem .25rem 1rem rgba(0,0,0,.1);
+  overflow: hidden;  
+  animation: flash 1s ;
+  animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+  animation-fill-mode: forwards;
+  transform: scale(0);
+  overflow: hidden;
   
 }
 
+
 @keyframes flash {
   0% {
-    opacity: 0;
-    
-  }
-  
-  90% {
-    opacity: 0.5 ;
+    transform: scale(0);
   }
 
   100% {
-    opacity: 1;
+    transform: scale(1);
   }
+
 }
 
 .Cards-hebergement:nth-child(1) {
@@ -122,6 +125,16 @@
  .Cards-hebergement:nth-child(6) {
   animation-delay: 0.6s;
  }
+ .Cards-hebergement:nth-child(7) {
+  animation-delay: 0.7s;
+ }
+ .Cards-hebergement:nth-child(8) {
+  animation-delay: 0.8s;
+ }
+ .Cards-hebergement:nth-child(9) {
+  animation-delay: 0.9s;
+ }
+
 
 .Cards-hebergement p {
   position: absolute;
@@ -183,11 +196,20 @@
   border-radius: 0px 10px 10px 0px;
 }
 
+.slide-left {
+height: 1.6rem;
+width: 1.6rem;
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 100px;
+}
 .slide-left i {
   font-size: 20px;
   color: white;
-  padding-left: 13px;
-  padding-top: 15px;
+  transform: rotate(180deg);
+  
 }
 .btn {
   background: linear-gradient(170deg, #ff79da, #9356dc);
