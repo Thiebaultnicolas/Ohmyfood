@@ -227,7 +227,7 @@ padding: 2px 9px;
     font-size: 25px;   
  }
 
-.fa-solid {
+.heart_transition{
     color: transparent;
     background-image: linear-gradient(170deg, #ff79da, #9356dc);
     background-clip: text;
@@ -237,7 +237,7 @@ padding: 2px 9px;
       
 }
 
-.fa-solid:hover {
+.heart_transition:hover {
     opacity: 1;
     transform: translatey(-1%) scale(1);
 }
