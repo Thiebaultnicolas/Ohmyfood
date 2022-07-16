@@ -133,6 +133,8 @@ animation-delay: 0.7s;
     align-self: center;
     transition: 250ms;
     cursor: pointer;
+    box-shadow: .25rem .25rem 10px rgba(0,0,0,.25);
+    
   }
 
 
@@ -204,6 +206,7 @@ padding: 2px 9px;
     font-size: 20px;
     font-family: 'Shrikhand', cursive;
 }
+
 .cards-restaurants {
     background-color: white;
     border-radius: 15px 15px 15px 15px; 
@@ -217,12 +220,28 @@ padding: 2px 9px;
 
 .cards-restaurants i {
     display: flex;
-    justify-content: flex-end;
+    position:absolute;
+    right: 0;
     padding-right: 30px;
     margin-top: -30px;
-    
- 
+    font-size: 25px;   
  }
+ 
+.fa-solid {
+    color: transparent;
+    background-image: linear-gradient(170deg, #ff79da, #9356dc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition:all 200ms ease-in-out;
+      
+}
+
+.fa-solid:hover {
+    opacity: 1;
+    transform: translatey(-1%) scale(1);
+}
+
 
 .new {
   position: absolute;
@@ -265,15 +284,7 @@ padding: 2px 9px;
 
  }
  
-.fa-regular{
-    font-size: 25px;
-    transition: all 350ms;
-    padding: 0px;
-}
 
-.cards-restaurants i:hover {
-    color: pink;
-}
 
 
 
