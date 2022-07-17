@@ -307,6 +307,7 @@ padding: 2px 9px;
 .footer a {
     color: white;
     text-decoration:none;
+    font-family: 'Roboto', sans-serif;
 }
 .footer p {
     font-family: 'Roboto', sans-serif;
