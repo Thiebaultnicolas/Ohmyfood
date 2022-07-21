@@ -26,8 +26,7 @@
   width: 100%;
   height: 300px;
   object-fit: cover;
-  border-radius: 0px 0px 0px 0px;
-  position: fixed;
+  position: absolute;
   z-index: -1;
   
   
@@ -95,7 +94,7 @@
 .Cards-hebergement{
   background-color: white;
   width: 85%;
-  height: 50px;
+  height: 65px;
   border-radius: 10px 10px 10px 10px;
   margin-left: 28.125px;
   margin-bottom: 15px;
@@ -157,16 +156,6 @@
  }
 
 
-
-
-
-.Cards-hebergement p {
-  position: absolute;
-  right: 0;
-  padding-right: 45px;
-  margin-top: 5px;
-}
-
 .Cards-hebergement__legende {
   text-align: start;
   font-size: 16.5px;
@@ -174,25 +163,15 @@
   margin-left: 10px;
   display: flex;
   justify-content: space-between;
+  height: 100%;
 }
 
-.prix1 {
-  padding-top: 20px;
-  padding-left: 23px;
-}
-
-.prix2 {
-  padding-top: 20px;
-}
-
-.prix3 {
-  padding-top: 20px;
-  padding-left: 25%;
-}
 
 .texte1 {
   padding-top: 10px;
-  font-size: 12px;
+  font-size: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .Cards-hebergement a {
@@ -200,42 +179,44 @@
 }
 
 .Cards-hebergement p {
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .Cards-hebergement h3 {
   margin: 0;
-  font-size: 14px;
-  display: f;
-  flex-wrap: nowrap;
-}
-
-
-.Cards-hebergement:hover .slide-left {
-  animation: slide-left 1.3s cubic-bezier(0.5, 0.46, 0.45, 0.94) both;
-  background-color: #99e2d0;
-  height: 50px;
-  width: 15%;
-  border-radius: 0px 10px 10px 0px;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .slide-left {
-height: 1.6rem;
-width: 1.6rem;
-background-color: #fff;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 100px;
-
-
+  background-color: #99e2d0;
+  width: 0px;
+  display: inline-block;
+  transition: all 0.4s linear;
+  
 }
-
-.slide-left i {
-  font-size: 20px;
-  color: white; 
-  rotate: 0deg;
+ .prix {
+  margin-left: auto;
+  margin-top: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 15px;
  
+ }
+.Cards-hebergement:hover .slide-left {
+  width: 50px;
+}
+.Cards-hebergement:hover .fa-circle-check {
+  transform: rotate(1turn)
+}
+.fa-circle-check {
+  transform:rotate(0turn);
+  transition: all 0.4s linear;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 12px;
+  color: white;
 }
 .btn {
   background: linear-gradient(170deg, #ff79da, #9356dc);
@@ -276,15 +257,4 @@ border-radius: 100px;
 /* footer*/
 
 
-
-@keyframes slide-left {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-50px);
-    transform: translateX(-50px);
-  }
-}
 
