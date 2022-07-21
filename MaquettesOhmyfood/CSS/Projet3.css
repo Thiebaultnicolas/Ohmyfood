@@ -315,3 +315,17 @@ padding: 2px 9px;
    
 }
   /* footer */
+
+
+/* desktop */
+  @media screen and (min-width: 768px) {
+
+   }
+/* desktop */
+
+
+/* tablette*/
+@media screen and (min-width:768px) and (max-width:991px){
+
+}
+/* tablette*/
