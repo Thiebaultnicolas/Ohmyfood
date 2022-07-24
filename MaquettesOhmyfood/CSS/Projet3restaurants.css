@@ -71,15 +71,18 @@
 
 /* section*/
 .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.background {
   background-color: #eaeaea;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border-radius: 50px 50px 0px 0px;
-  margin-top: 240px;
-
- 
-  
+  margin-top: 240px;  
 }
 .menu_restaurants {
   background-color: gray;
@@ -260,7 +263,18 @@
 
 /* desktop */
 @media screen and (min-width: 768px) {
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  flex-wrap: wrap;
+}
 
+.btn {
+  width: 15%;
+  margin-left: 38%;
+}
 }
 /* desktop */
 
