@@ -1,0 +1,43 @@
+MISSION ? 
+
+1recruté chez oh my food 
+
+2objectif et de developper un site 100% mobile
+
+3je suis chargé du developpement du site
+
+PREPARATION ?
+
+1 on m'as confié un brief qui fais office de charte avec plusieurs
+regle a prendre en compte et a respecté.
+
+2 et j'ai recu de la part de fanny ma collegue les maquettes du site 
+a developper. 
+
+3 avant toute chose j'ai donc bien examiner le bried et les maquettes
+pour ensuite pourvoir les decouper avant de coder afin de m'aider a 
+mieux me reperer dans Mon HTML et mon CSS.
+
+----------------------------------------------------------------------
+
+PRINCIPALE REGLEMENTATIONS :
+
+BRIEF ?
+
+1 Comme je vous l'ai dis je dois respecter certaine régle imposé dans
+le brief comme par exemple , utiliser certaine couleur primaire 
+secondaire et tertaire (#9356DC) qui est un violet et encore respecter
+une certaine police d'écriture sur les titres les paragraphes .
+
+RESPONSIVE ? 
+
+1 le site que je dois developper et normalement 100% mobile mais je
+dois quand même faire en sorte qu'il soit adaptable a plusieurs type
+d'ecran comme les tablettes ou les ordinateurs , donc le rendre
+reponsive.
+
+VALIDATION CODE ?
+
+1 Je dois valider mon code grace au W3C qui permet de regarder et me
+dire si mon code html et css developpé ne contient pas d'erreur et 
+et donc au norme.
