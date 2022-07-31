@@ -1,0 +1,33 @@
+
+mixin ? 
+Une mixin est un morceau de code paramétrable et réutilisable 
+n'importe où dans votre fichier SASS. 
+Comme pour une fonction, une mixin peut prendre des paramètres.
+
+
+loader ? 
+donc jai crée une div avec des span avec la meme class ( lettre ) 
+jai indiqué a cette class lettre une couleur une taille un espacement
+entre chaque lettre et je lui est ajouté une animation keyframes.
+et jai mis un delay d'animation a chaque lettre.
+
+
+sass ? 
+j'ai decidé de ne pas utilisé sass car ce n'étais pas obligatoire.
+
+
+nouveau ? 
+simplement mis une position relativ au contenant et ensuite une
+position, absolute au nouveau .
+
+
+comportement en cascade css ? 
+la cascade des styles signifie que l'ordre d'apparition des règles 
+dans le CSS a une importance ; quand deux règles applicables ont la 
+même spécificité, c'est la dernière déclarée qui sera utilisée pour 
+la mise en forme
+
+
+
+
+
