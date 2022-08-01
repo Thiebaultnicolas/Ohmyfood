@@ -11,10 +11,10 @@ PREPARATION ?
 1 on m'as confié un brief qui fais office de charte avec plusieurs
 regle a prendre en compte et a respecté.
 
-2 et j'ai recu de la part de fanny ma collegue les maquettes du site 
+2 et j'ai recu de la part d'une collegue les maquettes du site 
 a developper. 
 
-3 avant toute chose j'ai donc bien examiner le bried et les maquettes
+3 avant toute chose j'ai donc bien examiner le brief et les maquettes
 pour ensuite pourvoir les decouper avant de coder afin de m'aider a 
 mieux me reperer dans Mon HTML et mon CSS.
 
