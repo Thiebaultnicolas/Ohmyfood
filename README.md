@@ -1,6 +1,6 @@
 # Ohmyfood
 
-Projet : Dynamisez un site web avec des animations CSS
+```Projet : Dynamisez un site web avec des animations CSS```
 
 ## :dart: Objectifs attendus
 - Développer un site proposant le menu de **4 grands restaurants parisiens**
