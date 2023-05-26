@@ -4,7 +4,7 @@
 
 ## Description FR :
 
-```Projet : Dynamisez un site web avec des animations CSS```
+```Projet : Dynamisez un site web avec des animations CSS.```
 
 ## :dart: Objectifs attendus :
 - Développer un site proposant le menu de **4 grands restaurants parisiens**
@@ -22,7 +22,7 @@
 ---
 
 ## EN Description :
-```Project: Enhance a website with CSS animations```
+```Project: Enhance a website with CSS animations.```
 
 ## :dart: Expected Objectives :
 - Develop a site offering the menu of 4 major Parisian restaurants
